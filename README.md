@@ -49,6 +49,11 @@ Most exercises and notebooks will run fine on your local machine. Here's how to 
     jupyter notebook
     ```
    This will open Jupyter in your web browser, and you can navigate to the tutorial directories to start working on the exercises.
+   To run the code from within our aisec environment, you may need to add the conda environment as a kernel in Jupyter manually. You can do this by running the following command in your terminal:
+   ```bash
+   python -m ipykernel install --user --name=aisec --display-name "Python (aisec)"
+   ```
+   Then, you can select the "Python (aisec)" kernel in Jupyter Notebook when you open a notebook (click on "Kernel" > "Change kernel" > "Python (aisec)").
 
 
 NOTE: Some exercises may require additional setup, such as downloading specific models or datasets. Check the README files in each tutorial directory for specific instructions.
