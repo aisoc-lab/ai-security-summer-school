@@ -65,13 +65,15 @@ As we progress, we may hit the compute limits of our local machines. We have des
 1. **Open Google Colab**:
    Go to [Google Colab](https://colab.research.google.com/).
 2. **Upload the Notebook**:
-   - Click on "File" > "Upload Notebook" and select the notebook you want to work on from the `ai-security-summer-school` directory, as well as the `requirements.txt` file.
+   - Click on "File" > "Upload Notebook" and select the notebook you want to work on from the `ai-security-summer-school` directory.
 3. **Runtime Configuration**:
    - Go to "Runtime" > "Change runtime type" and select "GPU" as the hardware accelerator.
+4. **Upload Additional Files**:
+   - Navigate to the "Files" tab and upload any additional files you may need, e.g., the `requirements.txt` file.
 4. **Install Dependencies**:
     - In a new code cell, run:
       ```python
-      !pip install -r requirements.txt
+      !pip install -r requirements.txt --quiet
       ```
 5. **Run the Notebook**:
    - You can now run the cells in the notebook as you would normally do in Jupyter. If you are new to Colab, you can find a [quick introduction here](https://colab.research.google.com/notebooks/intro.ipynb).
