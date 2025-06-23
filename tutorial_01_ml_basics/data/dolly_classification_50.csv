@@ -1,0 +1,127 @@
+instruction,context,response,category
+"Identify which car manufacturer is Japanese or American: Isuzu, Cadillac",,"Isuzu is Japanese, Cadillac is American",classification
+"Classify each of the following as a new world or old world crop: Potato, Corn, Tomato, Wheat, Oat, Cacao, Apple, Olive",,"Potato: New World, Corn: New World, Tomato: New World, Wheat: Old World, Oat: Old World, Cacao: New World, Apple: Old World, Olive: Old World",classification
+"Classify which item is a fake color out of this set: blue, green, sheep, red, orange",,A sheep is not a color,classification
+"Classify each of the following as ""Motorized"" or ""Not Motorized"": Bicycle, Skateboard, Car, Lawn Mower, Tractor, Golf Cart",,"Bicycle: Not Motorized
+Skateboard: Not Motorized
+Car: Motorized
+Lawn Mower: Motorized
+Tractor: Motorized
+Golf Cart: Motorized",classification
+"Tell me whether each state touches the ocean or not: Florida, North Carolina, Nebraska, Oklahoma, Oregon, Texas",,"Florida: Touches The Ocean 
+North Carolina: Touches The Ocean
+Nebraska: Does Not Touch The Ocean
+Oklahoma: Does Not Touch The Ocean
+Oregon: Touches The Ocean
+Texas: Touches The Ocean",classification
+"Identify which instrument is string or woodwind: Veena, Mizmar",,"Mizmar is woodwind, Veena is string.",classification
+"Classify each of the following as having two or four legs: human, horse, dog, cat, monkey, kangaroo, boar",,"Human: Two Legs
+Horse: Four Legs
+Dog: Four Legs
+Cat: Four Legs
+Monkey: Two Legs
+Kangaroo: Two Legs
+Boar: Four Legs",classification
+"Classify the following types of cars as ""economy"" or ""luxury"": Ford, Chevrolet, Lamborghini, Ferrari, Mercedes, Honda, Lexus, Toyota, Nissan, Subaru",,"Ford, Chevrolet, Honda, Toyota, and Subaru are high-quality car brands, but are generally not considered to be ""luxury"" brands. Lamborghini, Ferrari, Mercedes, and Lexus are luxury brands.",classification
+"From this list of American sports teams categorise them as American Football, Basketball, Baseball or Hockey. Cincinnati Bengals, Boston Celtics, Washington Capitals, Washington Capitals, Los Angeles Dodgers, Atlanta Braves, Phoenix Suns, New York Rangers, Chicago Bears",,"American football: Chicago Bears, Cincinnati Bengals
+Basketball: Boston Celtics, Phoenix Suns
+Baseball: Atlanta Braves, Los Angeles Dodgers
+Hockey: Washington Capitals, New York Rangers",classification
+"Identify which animal species is alive or extinct: Thylacoleo, Skipjack Tuna",,"Thylacoleo is extinct, Skipjack Tuna is alive.",classification
+Which is a species of fish? Sneaker or Sole,,Sole,classification
+"Identify which car manufacturer is German or American: BMW, Cadilliac",,"Cadillac is American, BMW is German",classification
+"Identify which instrument is string or percussion: Bianzhong, Sorahi",,"Sorahi is string, Bianzhong is percussion.",classification
+"Tell me which of these things are used as rock climbing gear: lamps, guardrails, ropes, power cords, nuts, anchors, puppies, cams, belay devices.",,"Ropes, nuts, anchors, cams, belay devices.",classification
+"Identify which animal species is alive or extinct: Xenoposeidon, Sloth",,"Sloth is alive, Xenoposeidon is extinct.",classification
+"Identify which instrument is string or woodwind: Giga, Panflute, Chuniri, Dizi",,"Dizi and Panflute are woodwind, Giga and Chuniri are string.",classification
+"Classify each of the following as either a title by Kevin Kwan or Veronica Roth: Sex and Vanity, Crazy Rich Asians, China Rich Girlfriend, Rich People Problems, Luck: The Essential Guide, Divergent, Allegiant, Insurgent, Carve the Mark, Chosen Ones",,"Kevin Kwan: Sex and Vanity, Crazy Rich Asians, China Rich Girlfriend, Rich People Problems, Luck: The Essential Guide
+Veronica Roth: Divergent, Allegiant, Insurgent, Carve the Mark, Chosen Ones",classification
+"Classify each as either an amphibian, bird, or fish: salmon, trout, salamander, cardinal, owl, falcon, frog",,"Salmon: Fish
+Trout: Fish
+Salamander: Amphibian
+Cardinal: Bird
+Owl: Bird
+Falcon: Bird
+Frog: Amphibian",classification
+"Which is a bird or fish: Red-backed shrike, Red salmon",,"Red salmon is a fish, Red-backed shrike is a bird",classification
+"Categorize the following list into common greetings and common parting words: goodbye, hi, hiya, howdy, see ya, what's up, i'm out, how are you, how are you doing, peace, sup, talk to you later, see you soon, have a good one",,"Common greetings: hi, hiya, howdy, what's up, how are you, how are you doing, sup
+Common parting words: goodbye, see ya, i'm out, peace, talk to you later, see you soon, have a good one",classification
+"Identify which instrument is string or woodwind: Tremolo bass, Rackett",,"Rackett is woodwind, Tremolo bass is string.",classification
+"Here is a list of movies. Which of these are considered to be Action Movies. American Graffiti, Rain Man, Mission Impossible, Goldfinger, Speed, The Devil's Advocate, The Magnificent Seven, Dazed and Confused, Die Hard, Top Gun.",,"Mission Impossible, Goldfinger, Speed, The Magnificent Seven, Die Hard, Top Gun are all considered to be Action Movies. American Graffiti, Rain Man, The Devil's Advocate, Dazed and Confused are not Action Movies.",classification
+"Classify the following as a 'Country', 'State' or 'City': California, Sacramento, Chicago, Singapore, New Delhi, London, Tennessee, New York",,"California: State
+Sacramento: City 
+Chicago: City
+Singapore: Both Country and City
+New Delhi: City
+London: City
+Tennessee: City
+New York: Both State and City",classification
+"Which of the following are breeds of dogs:
+Dachshund, Tabby, Russian Blue, Airedale Terrier, Papillon, Bengal, Greyhound",,"Dachshund, Airedale Terrier, Papillon and Greyhound are all breeds of dogs.
+Tabby, Russian Blue and Bengal are breeds of cats.",classification
+"Classify these foods as vegan, vegetarian or neither: frittata, yogurt, apple, lard, chicken noodle soup, tofu, flour, cheesecake",,"frittata: vegetarian, yogurt: vegetarian, apple: vegan, lard: neither, chicken noodle soup: neither, tofu: vegan, flour: vegan, cheesecake: vegetarian",classification
+"Group these colors based on their warmth and coldness; red, yellow, purple, orange, green, blue",,"Sure! Red, orange, and yellow are warm colors. Blue, purple, and green are cool colors.",classification
+"Tell me whether these people are authors or actors: Ernest Hemingway, Stephen King, George Orwell, Johnny Depp, George Clooney, Jonah Hill",,"Ernest Hemingway: Author
+Stephen King: Author
+George Orwell: Author
+Johnny Depp: Actor
+George Clooney: Actor
+Jonah Hill: Actor",classification
+"Identify which instrument is string or percussion: Damaru, Laouto",,"Damaru is percussion, Laouto is string.",classification
+"Classify the below numbers based on whether they are perfect square or not.
+64, 9, 81, 100, 57, 16",,"Perfect square - 64, 9, 81, 16
+Not perfect square - 100, 57",classification
+What is the difference between a coastal cruising and blue water sailboat?,,"The designs, accommodations and compromises for these boats can be very different and reflect the likely sea conditions these boats would encounter, expected time at sea and different experiences of passenger comfort.  The primary difference between these boats begins with the shape of the hull since many other design choices tend to be dictated by hull shape.
+
+Coastal cruisers, which are generally sailed near shore and in safer weather conditions, 
+tend to have a flatter hull shapes since these boats, which means they tend to ""slap"" the water when coming off a wave.  With a flatter hull shape, boat architects can make greater use of the cabin space and so coastal cruisers will generally have a more spacious interior.  The helm (or the outdoor area from which the boat is navigated) is generally less protected and generally speaking, offers greater comfort and ease of moving around.  Safety, protection and expected time away from marinas mean these boats can refill fresh water, recharge batteries, empty waste tanks more frequently and therefore, tend to have lower capacities.
+
+Blue water boats, because they are intended to sail in open waters (hence the moniker ""blue water"") in more unpredictable weather, generally have tapered (or tear drop shaped) hull shapes with heavier keels (generally, lead) and deeper drafts.  With these designs, blue water boats can withstand heavier seas and will ""cut through"" waves rather than ""slap.""  Generally speaking, blue water boats offer a much more comfortable experience in rougher seas and will have bigger fresh water and fuel tanks and will likely feature generators and other equipment that allows these boats to away for longer periods.
+
+Blue water boats feature tapered hulls so the beam or width of the boat narrows the closer it gets to the water line (and below), leaving less room in the interior cabin than an equally sized coastal cruiser.  Foot for foot, blue water boats will feature fewer berths and will have more cramped quarters because of the narrowing beam.
+
+Because blue water boats are intended to sail longer distances and will carry more fuel and fresh water, these boats interior space is further restricted to accomadate these practical requirements.
+
+The differences in comfort, stability and likelihood of capsizing are all captured in mathematical calculations that can provide an abstracted comparison between these boat types so prospective buyers can anticipate the the experiences and trade offs each hull type would provide.",classification
+"Identify which instrument is string or woodwind: Bass guitar, Duduk",,"Bass guitar is string, Duduk is woodwind.",classification
+"Classify the cities based on whether they are located in Malawi or Norfolk Island.
+Mzuzu, Blantyre, Kingston, Lilongwe",,"Malawi - Blantyre, Lilongwe, Mzuzu
+Norfolk Island - Kingston",classification
+"Which of these words are nouns and which are adjectives. Fridge, wipe, bed, chair, jump, yell, sleep, fruit and talk.",,"Fridge, bed, chair and fruit are words that are nouns. Wipe, jump, yell, sleep and talk are words that are adjectives.",classification
+"Tell me whether these countries belong to the EU or not: Greece, United Kingdom, Turkey, Ukraine, France, Italy, Spain",,"Greece: EU country, United Kingdom: non-EU country, Turkey: non-EU country, Ukraine: non-EU country, France: EU country, Italy: EU country, Spain: EU country",classification
+"Identify which instrument is string or percussion: Daxophone, Kobza",,"Kobza is string, Daxophone is percussion.",classification
+"Are these oceans or lakes: Superior, Michigan, Keuka, Ontario, Tahoe. and Yellowstone?",,They are lakes.,classification
+"Classify each of the following as either round or square shaped: a planet, a a ball, a slice of bread, a chess board.",,"Planets are round.
+Balls are round.
+A slice of bread is square shaped.
+A chess board is square shaped.",classification
+Which is a species of fish? Shaver or Razorfish,,Razorfish,classification
+"Classify each of the following as bright or dark: sun, lamp, cave, light, night, tunnel",,"Sun: Bright
+Lamp: Bright
+Cave: Dark
+Light: Bright
+Night: Dark
+Tunnel: Dark",classification
+"Identify which animal species is alive or extinct: Cape Lion, Javan Rhino",,"Javan Rhino is alive, Cape Lion is extinct.",classification
+"Classify which cat breeds into long-haired and short-haired breeds:  Siamese, Maine Coon, Norwegian Forest Cat, Russian Blue, British Shorthair, Persian, Ragdoll, Himalayan, Burman",,"Long-haired: Maine Coon, Norwegian Forest Cat, Persian, Ragdoll, Himalayan 
+Short-haired: Siamese, Burman, Russian Blue, British Shorthair",classification
+"Classify each of the following as either a true statement or a false statement: 
+1. Albert Einstein was a Chinese mathematician that lived in the 19th and 20th century.
+2. Pigs are not mammals.
+3. This question contains four statements that need classification.",,"Statement number 1 is mostly false, since Albert Einstein was neither Chinese or a mathematician. He was a German theoretical physicist. However, he did in fact live during the 19th and 20th centuries.
+
+Statement number 2 is false. Pigs are in fact mammals. 
+
+Statement number 3 is false. This question actually contained 3 statements.",classification
+"Classify each of the following as either a brand of kombucha or a soda brand: Humm, Brew Doctor, Pepsi, 7Up, Mountain Dew, Coca-Cola, Sprite, Fanta, GT's, Remedy, Health-Ade",,"Kombucha: Humm, Brew Doctor, GT's, Remedy, Health-Ade 
+Soda: Pepsi, 7Up, Mountain Dew, Coca-Cola, Sprite, Fanta",classification
+"Tell me whether these are Mandalorians or Jedi: Yoda, Luke Skywalker, Bobba Fett, Din Djarin",,"Yoda: Jedi, Luke Skywalker: Jedi, Bobba Fett: Mandalorian, Din Djarin: Mandalorian",classification
+"Identify which animal species is alive or extinct: Amargasaurus, Black Rhino",,"Black Rhino is alive, Amargasaurus is extinct.",classification
+"Classify these as either states or cities: Illinois, California, San Francisco, Austin, Texas.",,"Illinois, California, and Texas are states.  San Francisco and Austin are cities.",classification
+"Classify these foods as either ""italian"", ""french"", ""mexican"" or ""other"". Crepes Suzette, Parmigiana di melanzane, La paella de marisco, Tahchin, Tacos al pastor, Soupe à l'oignon, Enchiladas, Pappardelle al ragù.",,"italian: Parmigiana di melanzane, Pappardelle al ragù
+french: Crepes Suzette, Soupe à l'oignon
+mexican: Tacos al pastor, Enchiladas
+other: La paella de marisco, Tahchin",classification
+"Divide these books into Science Fiction, Fantasy or neither. The Great Gatsby, Dune, The Fellowship of the Ring, Neuromancer, A Game of Thrones, The Colour of Magic, Brave New World, Anna Karenina, The Catcher in the Rye, The Lion, the Witch and the Wardrobe, Snow Crash, Wuthering Heights, Magician, Catch-22, Foundation, The Stranger, 1984.",,"Dune, Neuromancer, Snow Crash, Foundation, 1984, Brave New World are Science Fiction books. The Fellowship of the Ring, A Game of Thrones, The Colour of Magic, The Lion, the Witch and the Wardrobe, Magician are Fantasy books. The Great Gatsby, Anna Karenina, The Catcher in the Rye, Wuthering Heights, Catch-22, and The Stranger are not considered to be either Science Fiction nor Fantasy books.",classification
+"Tell me whether the following are public or private universities in the United States: Harvard University, University of Florida, University of Massachusetts Amherst, Cornell University, Amherst College, Colby College, and the University of Michigan Ann Arbor.",,"Harvard University, Cornell University, Amherst College, and Colby College are private universities. The rest of the schools you mentioned are public universities.",classification
+"Identify which instrument is string or percussion: Sheker, Taishogoto",,"Taishogoto is string, Sheker is percussion.",classification
