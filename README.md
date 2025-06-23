@@ -69,12 +69,7 @@ As we progress, we may hit the compute limits of our local machines. We have des
 3. **Runtime Configuration**:
    - Go to "Runtime" > "Change runtime type" and select "GPU" as the hardware accelerator.
 4. **Upload Additional Files**:
-   - Navigate to the "Files" tab and upload any additional files you may need, e.g., the `requirements.txt` file.
-4. **Install Dependencies**:
-    - In a new code cell, run:
-      ```python
-      !pip install -r requirements.txt --quiet
-      ```
+   - Navigate to the "Files" tab and upload any additional files you may need.
 5. **Run the Notebook**:
    - You can now run the cells in the notebook as you would normally do in Jupyter. If you are new to Colab, you can find a [quick introduction here](https://colab.research.google.com/notebooks/intro.ipynb).
 
@@ -85,6 +80,8 @@ As we progress, we may hit the compute limits of our local machines. We have des
 Colab notebooks have a limited runtime and may disconnect after a period of inactivity.
 Don't forget to manually save your work and important outputs to Google Drive or download them locally. 
 Colab also has limits on GPU usage, so remember to shut down your Colab instance when you are done working or taking a break to avoid hitting the limits.
+
+**Important:** To properly shutdown your instance, go to `Runtime > Disconnect and delete runtime`. Simply closing the tab is not sufficient.
 
 ### Avoiding Common Errors
 * Always activate the correct environment before running the notebooks locally.
